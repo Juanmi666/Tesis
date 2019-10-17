@@ -1,0 +1,19 @@
+
+.galleria {
+  width: 1250px; # el ancho nos limitara el numero de imagenes por fila. 
+  margin: auto; # esto es para centrar todas las imagenes
+}
+
+.item {
+  float: left;
+  width: 150px;
+  height: 350px;
+  margin-bottom:30px; #separación con las filas inferiores
+  overflow: hidden; Para que la imagen no se salga
+  margin-right: 30px; # Separacion por la derecha
+}
+
+.item img {
+  width:300px; # Tiene que ser como el ancho de .item
+  display:block; # Esto es para que el texto aparezca debajo
+}
